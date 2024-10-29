@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: max-content;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 50 px;
+    width: 100%;
+    /*background-color: rgba(0, 0, 0, 0.9);
+    /* Change the position property to fixed, and top property to 0 */
+    position:fixed;
+    top:0;
+    z-index:10;
+    
+    /* Change the z-index property to 10 */
+  }
+
+  .logo {
+    width: 150px;
+    margin-top: 5px;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    height:auto;
+    background-image: url(https://i.ibb.co/QP0gKMk/lanscape2.jpg);
+    width:100%;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    margin-bottom: 3px;
+    
+  }
+  
+  
+  .button {
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+.footer {
+    margin:10px;
+    text-align: center;
+
+}
+  
+
+  
+ 
